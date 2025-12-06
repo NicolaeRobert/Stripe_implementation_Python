@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_page</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='first_page.css')}}">
+</head>
+<body>
+
+    <form action="{{url_for('first_page')}}" method="POST">
+        <button type="submit">Buy</button>
+    </form>
+    
+</body>
+</html>

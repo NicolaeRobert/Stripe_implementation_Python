@@ -1,0 +1,5 @@
+#Avoid to post the env file
+.env
+
+#Avoid to post the venv environment
+venv/
