@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='error.css')}}">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>There has been an error or you canceled the payment.</h1>
+        <h2>If you still want to buy the produc go to first page and retake the process.</h2>
+
+        <a href="{{url_for('first_page')}}">
+            Go to first page
+        </a>
+    </div>
+
+</body>
+</html>
