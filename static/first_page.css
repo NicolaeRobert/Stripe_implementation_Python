@@ -4,4 +4,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(200, 222, 240);
+}
+button{
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 25px;
+}
+button:hover{
+    height: 120px;
+    width: 230px;
+    font-size: 35px;
 }
